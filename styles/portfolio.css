@@ -115,3 +115,128 @@ main {
 .item-description {
   font-weight: bold;
 }
+
+.whatido{
+  margin-top:130px ;
+}
+
+.whatido h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+.whatido-description{
+  text-align: center;
+  padding: 0px 130px;
+}
+
+.card-container{
+display: flex;
+gap: 24px;
+margin-top: 50px;
+justify-content: space-around;
+}
+.card{
+  border-radius: 5px;
+
+  padding: 20px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card h4{
+   font-size: 20px;
+   font-weight: bold;
+}
+.card p{
+  line-height: 28px;
+}
+
+.summary-section{
+  margin-top: 130px;
+ 
+}
+
+.summary-section h3{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 0 113px 0;
+  text-align: center;
+  color: #181818;
+}
+.education-container{
+  display: flex;
+  gap: 71px;
+  margin-bottom: 30px;
+}
+.education h4{
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 0 30px 0;
+  color: #474747;
+  
+}
+.education h5{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin: 0;
+}
+.education h6{
+  font-weight: 500;
+  font-size: 20px;
+  color: #757575;
+  margin: 10px 0px 20px 0px;
+}
+hr{
+  color: #D1D1D1;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+footer{
+  margin-top: 113px;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 170px;
+}
+.footer-container h3{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0px;
+}
+.footer-container img{
+  padding: 10px;
+}
+
+.main-footer{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+input{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 461px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 5px;
+}
+textarea{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: 461px;
+  border: none;
+  padding: 18px 0px 18px 30px;
+}
+
+.submit-btn{
+  width: 150px;
+}
